@@ -1,5 +1,6 @@
 /* import React, { useState, useEffect } from 'react' */
 import React from 'react'
+import './Workout.css'
 function Workout() {
   /*  const [move, setMove] = useState()
   const [index, setIndex] = useState(0)
@@ -19,10 +20,10 @@ function Workout() {
     return () => clearTimeout(timer)
   }, [index]) */
   const moves = [
-    '10 wall push-ups',
-    'Now 10 table push-ups',
-    'Now jump up and down. UP DOWN UP DOWN',
-    'Now dance like monkeys',
+    'Do 10 wall push-ups. UP DOWN UP DOWN',
+    'Do 10 table push-ups. UP DOWN UP DOWN',
+    'Jump up and down 10 times. UP DOWN UP DOWN. Like you did in a CLUB~~~',
+    'Dance like monkeys. DOWN UP DOWN UP',
   ]
   const getRandomNumber = (min, max) =>
     Math.floor(Math.random() * (max - min)) + min
@@ -30,7 +31,7 @@ function Workout() {
   const move = moves[randomNum()]
   return (
     <div className="workout-area">
-      <p>{move}</p>
+      <p className="workout-text">{move}</p>
     </div>
   )
 }

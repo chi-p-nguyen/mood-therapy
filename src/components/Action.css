@@ -1,7 +1,16 @@
-.action-area {
+.actions-area {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100vh;
+}
+
+.act-narration {
+  color: aliceblue;
+  font-size: 1.2em;
+}
+
+.act-text {
+  font-size: 2em;
 }

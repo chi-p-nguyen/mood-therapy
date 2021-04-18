@@ -14,8 +14,8 @@ function Jokes() {
 
   return (
     <div className="jokes-area">
-      <h3>Are you bored? Here's a joke!</h3>
-      <p>{joke}</p>
+      <h3 className="jokes-nar">Here's one:</h3>
+      <p className="jokes-text">{joke}</p>
     </div>
   )
 }

@@ -1,7 +1,17 @@
-.joke-area {
+.jokes-area {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100vh;
+}
+
+.jokes-nar {
+  color: aliceblue;
+  font-size: 1.2em;
+}
+
+.jokes-text {
+  font-size: 1.5em;
+  width: 50%;
 }

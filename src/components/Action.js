@@ -1,5 +1,5 @@
 import React from 'react'
-
+import './Action.css'
 function Action() {
   const actions = [
     'Go say hi to your roommate',
@@ -11,9 +11,9 @@ function Action() {
   const action = actions[randomNum()]
   return (
     <div className="actions-area">
-      <h3>Hmm not feeling better yet? Get up and...</h3>
-      <p>{action}</p>
-      <p>And while you're there. Tell them I say hi too</p>
+      <h3 className="act-narration">Get up and...</h3>
+      <p className="act-text">{action}</p>
+      <p className="act-text">And while you're there. Tell them I say hi too</p>
     </div>
   )
 }

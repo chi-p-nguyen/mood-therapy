@@ -1,7 +1,7 @@
 import React from 'react'
 import dumbcat from '../images/dumbcat.jpg'
 import bread from '../images/bread.jpg'
-
+import './FunnyImages.css'
 function FunnyImages() {
   const images = [dumbcat, bread]
   const getRandomNumber = (min, max) =>
@@ -11,7 +11,7 @@ function FunnyImages() {
 
   return (
     <div className="images-area">
-      <p>How about this photo?</p>
+      <p>A funny pic</p>
       <img src={src} alt="funny" />
     </div>
   )
