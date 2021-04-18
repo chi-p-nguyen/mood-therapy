@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/mood-therapy/static/css/main.eb56d992.chunk.css",
+    "main.js": "/mood-therapy/static/js/main.8bae2541.chunk.js",
+    "main.js.map": "/mood-therapy/static/js/main.8bae2541.chunk.js.map",
+    "runtime-main.js": "/mood-therapy/static/js/runtime-main.8ed65243.js",
+    "runtime-main.js.map": "/mood-therapy/static/js/runtime-main.8ed65243.js.map",
+    "static/js/2.725fa9be.chunk.js": "/mood-therapy/static/js/2.725fa9be.chunk.js",
+    "static/js/2.725fa9be.chunk.js.map": "/mood-therapy/static/js/2.725fa9be.chunk.js.map",
+    "index.html": "/mood-therapy/index.html",
+    "static/css/main.eb56d992.chunk.css.map": "/mood-therapy/static/css/main.eb56d992.chunk.css.map",
+    "static/js/2.725fa9be.chunk.js.LICENSE.txt": "/mood-therapy/static/js/2.725fa9be.chunk.js.LICENSE.txt",
+    "static/media/bread.4a58ecab.jpg": "/mood-therapy/static/media/bread.4a58ecab.jpg",
+    "static/media/crystal-dolphin.e3ad921f.mp3": "/mood-therapy/static/media/crystal-dolphin.e3ad921f.mp3",
+    "static/media/dumbcat.747139c2.jpg": "/mood-therapy/static/media/dumbcat.747139c2.jpg",
+    "static/media/pianocat.6c547c9e.gif": "/mood-therapy/static/media/pianocat.6c547c9e.gif",
+    "static/media/quietcat.71d88294.gif": "/mood-therapy/static/media/quietcat.71d88294.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8ed65243.js",
+    "static/js/2.725fa9be.chunk.js",
+    "static/css/main.eb56d992.chunk.css",
+    "static/js/main.8bae2541.chunk.js"
+  ]
+}
