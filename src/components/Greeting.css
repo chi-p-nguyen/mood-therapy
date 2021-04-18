@@ -1,0 +1,38 @@
+h1 {
+    color: #fff;
+}
+form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color:none;
+    margin:auto;
+    margin-top: 20px;
+    width: 100%;
+    padding: 30px;
+  }
+
+label {
+    color: #fff;
+    width: 50%;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+  }
+
+.subbutt {
+    background-color: none;
+    padding: 12px 20px;
+    color:#fff;
+    font-size: 1em;
+    font-weight: 400;
+    margin-top: 10px;
+    border: 1px solid  #fff;
+    border-radius: 8px;
+}
