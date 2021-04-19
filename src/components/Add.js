@@ -9,7 +9,7 @@ const Add = () => {
   }
 
   const addValue = () => {
-    db.collection('Jokes')
+    db.collection('jokes')
       .doc(value)
       .set({
         value: value,
@@ -21,7 +21,6 @@ const Add = () => {
         console.error('Error writing Value: ', error)
       })
   }
-
   return (
     <div>
       <input onBlur={getValue} type="text" />
