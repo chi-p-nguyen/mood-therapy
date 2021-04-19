@@ -10,7 +10,7 @@ const Add = () => {
 
   const addValue = () => {
     db.collection('jokes')
-      .doc(value)
+      .doc('name')
       .set({
         value: value,
       })
